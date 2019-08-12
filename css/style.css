@@ -1,0 +1,98 @@
+body {
+    background-color: bisque;
+}
+.choosen{
+    font-size: 30px;
+    font-weight: 400;
+}
+.choosen,
+.cont {
+    display: flex;
+    margin: auto;
+}
+
+.field {
+    display: none;
+    flex-direction: column;
+    width: 1024px;
+    height: 560px;
+    margin: auto;
+    position: relative;
+}
+
+.number {
+    margin-left: 4px;
+}
+
+.ready {
+    border-radius: 7px;
+    padding: 7px 10px;
+    color: white;
+    border: none;
+    width: 120px;
+    margin: auto;
+}
+
+.equationButton {
+    border: 2px solid #3a76a3;
+    color: #3a76a3;
+    border-radius: 7px;
+    padding: 9px 12px;
+    margin-right: 10px;
+    background: white;
+
+}
+.equationButton:hover{
+    background: #f2f2f2;
+}
+
+.active {
+    background: #3a76a3;
+    color:white;
+}
+.active:hover{
+    background-color: #0f5386;
+}
+.activeReady {
+    background: #70c5e2;
+}
+.activeReady:hover{
+    background: #39b6e2;
+}
+.buttonBlock {
+    background: #b9e0ed;
+}
+
+.mistake {
+    background: #f05a69;
+    color:white;
+    border:none;
+}
+
+.allRight,.allRight:hover {
+    background: #8fbe83;
+}
+
+.notAll,
+.calculate {
+    display: none;
+    position: absolute;
+    top: 350px;
+    margin: auto;
+    background: #add9da;
+    width: 250xp;
+    padding: 13px 19px;
+    border-radius: 7px;
+}
+
+.notAll {
+    left: 37%;
+}
+
+.calculate {
+    left: 44%;
+}
+
+.toShow {
+    display: flex;
+}
